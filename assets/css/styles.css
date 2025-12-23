@@ -8,7 +8,7 @@ body {
   background: 0;
   color: #7dbcd8;
 }
-header {
+header.hero {
   background: linear-gradient(120deg, #04AA6D, #058457);
   color: #fff;
   padding: 60px 20px;
