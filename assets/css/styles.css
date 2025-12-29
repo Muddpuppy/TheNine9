@@ -1,7 +1,8 @@
-medal.h1{
-  background-image: url("https://github.com/Muddpuppy/TheNine9/blob/main/assets/images/Savvy_Medal-2.jpg") center/cover no-repeat;
-  width: 100%;
+h1{
+  background-image: url("assets/images/Savvy_Medal-2.jpg");
+  max-width: 100%;
 }
+
 
 
 
