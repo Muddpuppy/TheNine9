@@ -26,7 +26,7 @@ header.hero {
   line-height:1.15; 
   margin-bottom:12px;
 }
-img.responsive {
+.headerpic.img.responsive {
   max-width:100%; 
   height:auto; 
   border-radius:16px;
@@ -54,6 +54,7 @@ footer {
   font-size: 0.9rem;
 
 }
+
 
 
 
