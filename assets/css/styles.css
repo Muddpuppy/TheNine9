@@ -16,15 +16,16 @@ section.headerpic {
 }
 header.hero {
   background: linear-gradient(120deg, #04AA6D, #058457);
-  color: #fff;
-  padding: 60px 20px;
-  text-align: center;
-  z-index: 1000;
 }
 .hero h1 {
-  font-size:45rem; 
-  line-height:1.15; 
-  margin-bottom:12px;
+  position: absolute; /* Text positioned relative to the container */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: -100;
 }
 .headerpic.img.responsive {
   max-width:100%; 
@@ -54,6 +55,7 @@ footer {
   font-size: 0.9rem;
 
 }
+
 
 
 
