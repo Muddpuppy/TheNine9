@@ -8,10 +8,11 @@ body {
   background: 0;
   color: #7dbcd8;
 }
-section.header pic {
+section.headerpic {
   max-width:100%; 
   height:auto; 
   border-radius:5px;
+  z-index: 500;
 }
 header.hero {
   background: linear-gradient(120deg, #04AA6D, #058457);
@@ -53,4 +54,5 @@ footer {
   font-size: 0.9rem;
 
 }
+
 
