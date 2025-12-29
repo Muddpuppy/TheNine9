@@ -12,7 +12,6 @@ section.headerpic {
   position: relative;
   display: inline-block;
   border-radius:5px;
-  z-index: 500;
 }
 header.hero {
   position: absolute;
@@ -59,6 +58,7 @@ footer {
   font-size: 0.9rem;
 
 }
+
 
 
 
