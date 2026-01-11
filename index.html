@@ -54,11 +54,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 <!-- Page Content -->
 <div class="w3-padding-small" id="main">
+
   <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" style="margin-top: 10px" id="home">
-    <h1 style= "font-family: Times New Roman; font-size: 8vw;">SAVANNAH BOHLING</h1>
-    <h2>THE 99</h2>
-    <img class="w3-round-large w3-grayscale" src="assets/images/main_pic.png" alt="Champ" style="width: 100%; max-width: 1200px">
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 style= "font-family: Helvetica; font-size: 8vw">SAVANNAH BOHLING</h1>
+    <h2 style= "font-family: Helvetica; font-size: 1.5vw">THE 99</h2>
+    <img class="w3-round-large" src="assets/images/main_pic.png" alt="Best" style="width: 100%; max-width: 1800px;">
+
   </header>
 
   <!-- About Section -->
@@ -117,8 +119,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p>No one is better than John Doe.</p>
 
     <!-- Schedule Button for calendar -->
-    <a href="https://calendar.google.com/calendar/embed?src=93238c71a534e58f4e5a7bbbabafd95c9b118f554de8e213c33cb64d3b409091%40group.calendar.google.com&ctz=America%2FChicago" class="w3-button w3-light-grey w3-padding-larg" style="width: 25%; margin-top: 50px;">My Schedule</a>
-  </div> 
+    <a href="https://calendar.google.com/calendar/embed?src=93238c71a534e58f4e5a7bbbabafd95c9b118f554de8e213c33cb64d3b409091%40group.calendar.google.com&ctz=America%2FChicago"
+      class="w3-button w3-light-grey w3-padding-larg" style="width: 200px; margin-top: 50px;">My Schedule</a>
+  </div>
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="photos" style="max-width: 1200px;">
     <h2 class="w3-text-light-grey">My Photos</h2>
@@ -152,11 +155,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Madison, US</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 601-201-5457</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 601-497-8239</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: thenine9online@gmail.com</p>
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="thenine9online@gmail.com">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="ebb66d04-f106-45c0-95d6-14e5d118dae0">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
@@ -165,11 +169,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <button class="w3-button w3-light-grey w3-padding-large" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
+        <button class="w3-button w3-light-grey w3-padding-large" type="reset" value="clear"> RESET
+        </button>
       </p>
     </form>
   <!-- End Contact Section -->
   </div>
-  
+
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -187,6 +193,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
